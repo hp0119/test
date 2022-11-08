@@ -8,9 +8,6 @@ on:
     - '**.csproj'
 env:
   DOTNET_VERSION: '6.0' # The .NET SDK version to use
-defaults:
-  run:
-    working-directory: test
 jobs:
   build-and-test:
     runs-on: windows-latest
